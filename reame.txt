@@ -1,0 +1,13 @@
+
+.idea -> dont touch it, its PHSTORM project folder
+
+asset -> all UI components like css javascript are placed in this folder
+
+backend -> all php logics,databasefiles,snippets and modules are place in this folder
+
+docs,example -> this two folder are only for referance purpose from root developer and should not be be interfeared with, its only there for copy code from it, suppose you want a form control then just copy from it
+
+index.php -> landing page consist of navigation for all the system
+
+
+
