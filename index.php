@@ -6,10 +6,8 @@
     <?php include_once("./backend/includes/landing_basic_head.html"); ?>
 
     <title>Library Management System</title>
-    <!-- Favicon -->
-    <link href="./assets/img/brand/favicon.png" rel="icon" >
     <!-- Argon CSS -->
-    <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
+    <link type="text/css" href="./assets/css/argon_style.css?v=1.0.1" rel="stylesheet">
 
 </head>
 
@@ -42,11 +40,11 @@
                             </h1>
                             <p class="lead  text-white">Some Catchy paragraph about website and its components.</p>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-info btn-icon mb-3 mb-sm-0">
+                                <a href="login.php" class="btn btn-info btn-icon mb-3 mb-sm-0">
                                     <span class="btn-inner--icon"><i class="fa fa-code"></i></span>
                                     <span class="btn-inner--text">Login</span>
                                 </a>
-                                <a href="" class="btn btn-white btn-icon mb-3 mb-sm-0">
+                                <a href="singup.php" class="btn btn-white btn-icon mb-3 mb-sm-0">
                                     <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
                                     <span class="btn-inner--text">Signup</span>
                                 </a>
@@ -93,14 +91,14 @@
 <!-- Footer Include Starts -->
 <!-- this super simple way will allow you to only change the original file located in ./backend/includes/landing_footer.html and all footer throughout the system will change automatically -->
 <?php include_once("./backend/includes/landing_footer.html"); ?>
-<!-- Footer Include Starts -->
+<!-- Footer Include Ends -->
 
 <!-- Core JS-->
-<!-- this here were adding basic javascript files that are neccessory to run website remain same throughout the system -->
+<!-- this here were adding basic javascript files that are needed to run website remain same throughout the system -->
 <?php include_once("./backend/includes/core_javascript_files.html"); ?>
 <!-- Argon JS -->
 <!-- argon.js is not included in core js because its javascript file of templates of template -->
-<script src="./assets/js/argon.js?v=1.0.1"></script>
+<script src="./assets/js/argon_style.min.js"></script>
 </body>
 
 </html>
